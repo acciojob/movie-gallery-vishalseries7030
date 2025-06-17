@@ -1,61 +1,68 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
+  <meta charset="UTF-8">
   <title>Movie Gallery</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Bootstrap CSS -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  >
   <style>
     img {
-      width: 100px;
-      height: 100px;
+      display: block;
+      margin: auto;
     }
   </style>
 </head>
-
 <body>
+
   <div class="container-fluid">
-
-    <!-- First Row: 12 images (col-sm-1) -->
+    
+    <!-- First Row: 12 columns of col-sm-1 -->
     <div class="row">
-      <div class="col-sm-1"><img src="https://media.istockphoto.com/id/1435087141/photo/movie-theater-grey-seats-in-a-modern-cinema.webp?a=1&b=1&s=612x612&w=0&k=20&c=2eymS0McSivIBJdpsjT63fT5vOO5T3qP2liTXh40BPs=" alt="Movie"></div>
-      <div class="col-sm-1"><img src="https://media.istockphoto.com/id/1494642262/photo/people-in-the-cinema-auditorium-with-empty-white-screen.webp?a=1&b=1&s=612x612&w=0&k=20&c=Q9NOP_pk04R_EVWtlVBZI75eSrXwYY_oz0wuk04rO7M=" alt="Movie"></div>
-      <div class="col-sm-1"><img src="https://media.istockphoto.com/id/1522047019/photo/close-up-of-eating-popcorn-in-cinema.webp?a=1&b=1&s=612x612&w=0&k=20&c=UxDovvE2x5ND7LE-UshSEf2dUNqHaojAhDD3jesB2sk=" alt="Movie"></div>
-      <div class="col-sm-1"><img src="https://media.istockphoto.com/id/182677992/photo/people-watching-movie-in-dark-cinema.webp?a=1&b=1&s=612x612&w=0&k=20&c=WKXjTt12jlVQYCVDIhBKnqAnDlT28PVckZ5rGfeIHdQ=" alt="Movie"></div>
-      <div class="col-sm-1"><img src="https://media.istockphoto.com/id/1007557230/photo/movie-projector-on-dark-background.webp?a=1&b=1&s=612x612&w=0&k=20&c=fB_9LlcUFrnLrPZ9hTVHoBHXtWPLdFzYOqum609HxaM=" alt="Movie"></div>
-      <div class="col-sm-1"><img src="https://plus.unsplash.com/premium_photo-1710536138727-651fb4a8359d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bW92aWVzJTIwaW1hZ2VzfGVufDB8fDB8fHww" alt="Movie"></div>
-      <div class="col-sm-1"><img src="https://images.unsplash.com/photo-1737401775070-1d84c2340c0d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bW92aWVzJTIwaW1hZ2VzfGVufDB8fDB8fHww" alt="Movie"></div>
-      <div class="col-sm-1"><img src="https://plus.unsplash.com/premium_photo-1710409625244-e9ed7e98f67b?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8bW92aWVzJTIwaW1hZ2VzfGVufDB8fDB8fHww" alt="Movie"></div>
-      <div class="col-sm-1"><img src="https://images.unsplash.com/photo-1596972811652-11d30aa10342?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bW92aWVzJTIwaW1hZ2VzfGVufDB8fDB8fHww" alt="Movie"></div>
-      <div class="col-sm-1"><img src="https://images.unsplash.com/photo-1598670132918-f27d10cd4590?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8bW92aWVzJTIwaW1hZ2VzfGVufDB8fDB8fHww" alt="Movie"></div>
-      <div class="col-sm-1"><img src="https://images.unsplash.com/photo-1730890754876-1657029c9eb9?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8bW92aWVzJTIwaW1hZ2VzfGVufDB8fDB8fHww" alt="Movie"></div>
-      <div class="col-sm-1"><img src="https://images.unsplash.com/photo-1613749742342-5abdaa0d0af3?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fG1vdmllcyUyMGltYWdlc3xlbnwwfHwwfHx8MA%3D%3D" alt="Movie"></div>
+      <div class="col-sm-1"><img src="https://goswift.in/img/logo.png" width="100" height="100"></div>
+      <div class="col-sm-1"><img src="https://goswift.in/img/logo.png" width="100" height="100"></div>
+      <div class="col-sm-1"><img src="https://goswift.in/img/logo.png" width="100" height="100"></div>
+      <div class="col-sm-1"><img src="https://goswift.in/img/logo.png" width="100" height="100"></div>
+      <div class="col-sm-1"><img src="https://goswift.in/img/logo.png" width="100" height="100"></div>
+      <div class="col-sm-1"><img src="https://goswift.in/img/logo.png" width="100" height="100"></div>
+      <div class="col-sm-1"><img src="https://goswift.in/img/logo.png" width="100" height="100"></div>
+      <div class="col-sm-1"><img src="https://goswift.in/img/logo.png" width="100" height="100"></div>
+      <div class="col-sm-1"><img src="https://goswift.in/img/logo.png" width="100" height="100"></div>
+      <div class="col-sm-1"><img src="https://goswift.in/img/logo.png" width="100" height="100"></div>
+      <div class="col-sm-1"><img src="https://goswift.in/img/logo.png" width="100" height="100"></div>
+      <div class="col-sm-1"><img src="https://goswift.in/img/logo.png" width="100" height="100"></div>
     </div>
 
-    <!-- Second Row: 6 images (col-sm-2) -->
-    <div class="row">
-      <div class="col-sm-2"><img src="https://images.unsplash.com/photo-1737401775070-1d84c2340c0d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bW92aWVzJTIwaW1hZ2VzfGVufDB8fDB8fHww" alt="Movie"></div>
-      <div class="col-sm-2"><img src="https://plus.unsplash.com/premium_photo-1710409625244-e9ed7e98f67b?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8bW92aWVzJTIwaW1hZ2VzfGVufDB8fDB8fHww" alt="Movie"></div>
-      <div class="col-sm-2"><img src="https://images.unsplash.com/photo-1596972811652-11d30aa10342?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bW92aWVzJTIwaW1hZ2VzfGVufDB8fDB8fHww" alt="Movie"></div>
-      <div class="col-sm-2"><img src="https://images.unsplash.com/photo-1598670132918-f27d10cd4590?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8bW92aWVzJTIwaW1hZ2VzfGVufDB8fDB8fHww" alt="Movie"></div>
-      <div class="col-sm-2"><img src="https://images.unsplash.com/photo-1730890754876-1657029c9eb9?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8bW92aWVzJTIwaW1hZ2VzfGVufDB8fDB8fHww" alt="Movie"></div>
-      <div class="col-sm-2"><img src="https://images.unsplash.com/photo-1613749742342-5abdaa0d0af3?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fG1vdmllcyUyMGltYWdlc3xlbnwwfHwwfHx8MA%3D%3D" alt="Movie"></div>
+    <!-- Second Row: 6 columns of col-sm-2 -->
+    <div class="row mt-3">
+      <div class="col-sm-2"><img src="https://goswift.in/img/logo.png" width="100" height="100"></div>
+      <div class="col-sm-2"><img src="https://goswift.in/img/logo.png" width="100" height="100"></div>
+      <div class="col-sm-2"><img src="https://goswift.in/img/logo.png" width="100" height="100"></div>
+      <div class="col-sm-2"><img src="https://goswift.in/img/logo.png" width="100" height="100"></div>
+      <div class="col-sm-2"><img src="https://goswift.in/img/logo.png" width="100" height="100"></div>
+      <div class="col-sm-2"><img src="https://goswift.in/img/logo.png" width="100" height="100"></div>
     </div>
 
-    <!-- Third Row: 3 images (col-sm-4) -->
-    <div class="row">
-      <div class="col-sm-4"><img src="https://media.istockphoto.com/id/1435087141/photo/movie-theater-grey-seats-in-a-modern-cinema.webp?a=1&b=1&s=612x612&w=0&k=20&c=2eymS0McSivIBJdpsjT63fT5vOO5T3qP2liTXh40BPs=" alt="Movie"></div>
-      <div class="col-sm-4"><img src="https://media.istockphoto.com/id/1494642262/photo/people-in-the-cinema-auditorium-with-empty-white-screen.webp?a=1&b=1&s=612x612&w=0&k=20&c=Q9NOP_pk04R_EVWtlVBZI75eSrXwYY_oz0wuk04rO7M=" alt="Movie"></div>
-      <div class="col-sm-4"><img src="https://media.istockphoto.com/id/1522047019/photo/close-up-of-eating-popcorn-in-cinema.webp?a=1&b=1&s=612x612&w=0&k=20&c=UxDovvE2x5ND7LE-UshSEf2dUNqHaojAhDD3jesB2sk=" alt="Movie"></div>
+    <!-- Third Row: 3 columns of col-sm-4 -->
+    <div class="row mt-3">
+      <div class="col-sm-4"><img src="https://goswift.in/img/logo.png" width="100" height="100"></div>
+      <div class="col-sm-4"><img src="https://goswift.in/img/logo.png" width="100" height="100"></div>
+      <div class="col-sm-4"><img src="https://goswift.in/img/logo.png" width="100" height="100"></div>
     </div>
 
-    <!-- Fourth Row: 1 image (col-sm-12) -->
-    <div class="row">
+    <!-- Fourth Row: 1 column of col-sm-12 -->
+    <div class="row mt-3">
       <div class="col-sm-12 text-center">
-        <img src="https://images.unsplash.com/photo-1736710744593-9995ac2ba227?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fG1vdmllcyUyMGltYWdlc3xlbnwwfHwwfHx8MA%3D%3D" alt="Movie">
+        <img src="https://goswift.in/img/logo.png" width="100" height="100">
       </div>
     </div>
 
   </div>
-</body>
 
+  <!-- Bootstrap JS (optional) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
 </html>
